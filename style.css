@@ -1,0 +1,449 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f2f2f2, #e6e6ff);
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #7c6cff;
+}
+
+.hero h3 {
+  color: #444;
+}
+
+.hero p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.hero-right img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background: #007BFF;
+  color: rgb(227, 173, 173);
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-secondary {
+  border: 2px solid #007BFF;
+  color: #007BFF;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #007BFF;
+  color: white;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+
+.btn-primary {
+  background: linear-gradient(45deg, #7c6cff, #a855f7);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about h1 {
+  font-size: 36px;   /* Heading size */
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;   /* Paragraph size */
+  line-height: 1.6;  /* Spacing between lines */
+  max-width: 700px;  /* Optional: keeps paragraph from being too wide */
+  margin: 0 auto;    /* Center the paragraph */
+}
+/* Container for all cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Individual Card */
+.card {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 15px;
+  flex: 1 1 200px;
+  max-width: 250px;
+  text-align: left;       /* left-align text for image + heading */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* Card heading with icon */
+.card-header {
+  display: flex;
+  align-items: center;   /* vertical alignment */
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Icon on the left */
+.card-icon {
+  width: 24px;           /* small icon size */
+  height: 24px;
+  margin-right: 10px;    /* space between icon and text */
+}
+
+/* Card content */
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #555;
+  font-size: 16px;
+}
+
+/* EDUCATION */
+.education {
+  padding: 80px;
+}
+
+.edu-box {
+  background: #ddd;
+  padding: 40px;
+  border-radius: 20px;
+
+  display: flex;           /* side-by-side layout */
+  align-items: flex-start; /* align image top with text */
+  gap: 20px;               /* space between image and content */
+}
+
+.edu-box-left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;      /* optional styling */
+}
+
+.edu-box-right h1 {
+  margin-top: 0;
+}
+
+.edu-box-right h3 {
+  margin-bottom: 5px;
+}
+
+.edu-box-right p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Strengths Section */
+.strengths {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.strengths h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.strength-list {
+  display: flex;
+  flex-wrap: wrap;       /* allow items to go to next line if needed */
+  justify-content: center;
+  gap: 10px;             /* space between ellipses */
+}
+
+.strength-list span {
+  background: #444;   /* pill color */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 50px;   /* makes the pill shape */
+  font-size: 16px;
+  white-space: nowrap;   /* prevent text from breaking inside the pill */
+}
+
+/* Projects heading */
+.projects-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.projects-header p {
+  font-size: 16px;
+  color: #555;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Container for projects in a row */
+.ux-projects-row {
+  display: flex;
+  gap: 30px;                 /* more space between cards */
+  justify-content: center;
+  flex-wrap: wrap;            /* wrap on smaller screens */
+  padding: 40px 20px;
+}
+
+
+/* Individual project card */
+.project {
+  background: #f9f9f9;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  flex: 1 1 420px;           /* increase min width for wider cards */
+  max-width: 480px;           /* increased max width */
+  display: flex;
+  flex-direction: column;     /* stack image → content → pills → footer */
+  gap: 20px;
+}
+
+/* Project image on top, same size for both */
+.project-image {
+  width: 100%;              /* fill the card width */
+  max-width: 700px;         /* fixed max width */
+  height: 300px;            /* fixed height for uniformity */
+  object-fit: cover;        /* crop/scale image to fit nicely */
+  border-radius: 10px;
+  margin: 0 auto;           /* center image */
+}
+/* Project heading */
+.project-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #333;
+}
+
+
+
+/* Project description */
+.project-content p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Pills / tags */
+/* Add space below pills */
+.project-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px; /* <-- add space between ellipses and footer */
+}
+
+
+.project-tags span {
+  background: #4d5051;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
+/* Footer sentence below pills */
+.project-footer {
+  font-style: italic;
+  color: #333;
+  margin: 0; /* reset margin so it doesn’t collapse with tags */
+}
+
+
+/* Let's Connect Section */
+.lets-connect {
+  padding: 60px 20px;
+  background: #f5f5f5;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;  /* center horizontally */
+}
+
+/* Flex container for intro + main text */
+.connect-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;              /* space between intro and main text */
+  flex-wrap: wrap;         /* stack on smaller screens */
+  max-width: 800px;        /* prevent stretching too wide */
+  text-align: center;      /* center text inside */
+}
+
+/* Intro content on the left */
+.connect-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Intro icon */
+.connect-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Main heading + paragraph */
+.connect-text {
+  flex: 1;
+}
+
+.connect-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.connect-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+
+/* Contact Grid Section */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;               /* space between sections */
+  padding: 60px 20px;
+  background: #f5f5f5;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Individual contact item */
+.contact-item {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;              /* space between icon, heading, and text */
+}
+
+/* Icon */
+.contact-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Heading */
+.contact-item h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Paragraph / content */
+.contact-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-item a {
+  color: #18191b;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #f5f5f5;      /* match contact section background */
+  color: #555;
+  font-size: 14px;
+  margin-top: 40px;         /* space from content above */
+  border-top: 1px solid #ddd; /* optional subtle top border */
+}
