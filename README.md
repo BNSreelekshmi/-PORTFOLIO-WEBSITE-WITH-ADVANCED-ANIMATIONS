@@ -13,6 +13,7 @@
 *Mentor Name* : Neela Santhosh
 
 ## The task is to develop a professional portfolio website from scratch that showcases my skills, education, projects, and contact information. The goal is to create a visually appealing and interactive website that represents my abilities as a web developer while demonstrating proficiency in modern front-end technologies. The website includes key sections such as Hero, About Me, Skills, Education, and Projects, all built using clean, semantic code and designed to provide a smooth, engaging user experience.
+
 Tools Used:
 HTML – for structuring the website, creating semantic sections, headings, paragraphs, buttons, and cards. It forms the foundation of the portfolio.
 CSS – for styling the website with modern design principles, including gradients, spacing, rounded cards, hover effects, and responsive layouts. CSS transitions and animations are used to provide smooth interactions.
